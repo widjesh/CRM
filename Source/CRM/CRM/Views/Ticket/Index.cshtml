@@ -1,0 +1,10 @@
+﻿@model IEnumerable<CRM.Entities.Ticket>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Master.cshtml";
+}
+
+<h2>Index</h2>
+
+<partial name="/Views/Ticket/_List.cshtml" for="@Model" />

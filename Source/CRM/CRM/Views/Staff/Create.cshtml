@@ -1,0 +1,63 @@
+﻿@model CRM.Entities.Staff
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Master.cshtml";
+}
+
+<h2>Create</h2>
+
+<h4>Staff</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="nameStaff" class="control-label"></label>
+                <input asp-for="nameStaff" class="form-control" />
+                <span asp-validation-for="nameStaff" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nuPhone" class="control-label"></label>
+                <input asp-for="nuPhone" class="form-control" />
+                <span asp-validation-for="nuPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="adEmail" class="control-label"></label>
+                <input asp-for="adEmail" class="form-control" />
+                <span asp-validation-for="adEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="adEmailPersonal" class="control-label"></label>
+                <input asp-for="adEmailPersonal" class="form-control" />
+                <span asp-validation-for="adEmailPersonal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="isAdmin" /> @Html.DisplayNameFor(model => model.isAdmin)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="idStore" class="control-label"></label>
+                <select asp-for="idStore" class ="form-control" asp-items="ViewBag.idStore"></select>
+            </div>
+            <partial name="/Views/Address/Create.cshtml" for="Address" />
+            <div class="for-group">
+                <label asp-for="password" class="control-label"></label>
+                <input asp-for="password" class="form-control" />
+                <span asp-validation-for="password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

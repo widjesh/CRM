@@ -1,0 +1,70 @@
+﻿@model CRM.Entities.Staff
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Master.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Staff</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nameStaff)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nameStaff)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.nuPhone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nuPhone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.adEmail)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.adEmail)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.adEmailPersonal)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.adEmailPersonal)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.dtRegistration)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.dtRegistration)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.isAdmin)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.isAdmin)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address.nuAddress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Store)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Store.nmStore)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="idStaff" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

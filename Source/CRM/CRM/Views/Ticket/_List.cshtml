@@ -1,0 +1,98 @@
+﻿@model IEnumerable<CRM.Entities.Ticket>
+@{
+    int counter = 0;
+}
+@functions{
+    private static string trimText(string str)
+    {
+        if (str.Length > 30)
+        {
+            str = str.Substring(0, 30);
+            str += "...";
+        }
+        return str;
+    }
+}
+<p>
+
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.deTicket)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dtOpening)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dtClosing)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dtDue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idStaffAssignedTo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idTicketStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idCustomer)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @{
+                        counter++;
+                    }@counter
+                </td>
+                <td>
+                    @trimText(item.deTicket)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.dtOpening)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.dtClosing)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.dtDue)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.staffAssignedTo.nameStaff)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ticketStatus.deTicketStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Customer.nmCustomer)
+                </td>
+                <td>
+                    @if (item.idTicketStatus == (int)CRM.Util.Enum.TicketStatusEnum.OPEN)
+                    {
+                        <a asp-action="Edit" asp-controller="Ticket" asp-route-id="@item.idTicket">
+                            <button class="btn btn-default btn-primary">
+                                Edit
+                            </button>
+                        </a>
+                    }
+                    <a asp-action="Details" asp-controller="Ticket" asp-route-id="@item.idTicket">
+                        <button class="btn btn-default btn-primary">
+                            Details
+                        </button>
+                    </a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

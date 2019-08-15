@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Business\\CRM.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Business\\CRM.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Business\\CRM.Business.csproj",
+        "projectName": "CRM.Business",
+        "projectPath": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Business\\CRM.Business.csproj",
+        "packagesPath": "C:\\Users\\ishiva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ishiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Repository\\CRM.Repository.csproj": {
+                "projectPath": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Repository\\CRM.Repository.csproj"
+              },
+              "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Util\\CRM.Util.csproj": {
+                "projectPath": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Util\\CRM.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Entities\\CRM.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Entities\\CRM.Entities.csproj",
+        "projectName": "CRM.Entities",
+        "projectPath": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Entities\\CRM.Entities.csproj",
+        "packagesPath": "C:\\Users\\ishiva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ishiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Antiforgery": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.DataProtection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.Data.Common": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Repository\\CRM.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Repository\\CRM.Repository.csproj",
+        "projectName": "CRM.Repository",
+        "projectPath": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Repository\\CRM.Repository.csproj",
+        "packagesPath": "C:\\Users\\ishiva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ishiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Entities\\CRM.Entities.csproj": {
+                "projectPath": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Entities\\CRM.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Linq.Expressions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Util\\CRM.Util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Util\\CRM.Util.csproj",
+        "projectName": "CRM.Util",
+        "projectPath": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Util\\CRM.Util.csproj",
+        "packagesPath": "C:\\Users\\ishiva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ishiva\\Desktop\\CRM\\Source\\CRM\\CRM.Util\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ishiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

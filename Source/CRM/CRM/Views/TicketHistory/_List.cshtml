@@ -1,0 +1,45 @@
+﻿@model IEnumerable<CRM.Entities.TicketHistory>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.idTicketHistory)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idStaffAssigns)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idStaffAssigned)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idTicketStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dtChanged)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.idTicketHistory)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StaffAssigns.nameStaff)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StaffAssigned.nameStaff)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketStatus.deTicketStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dtChanged)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

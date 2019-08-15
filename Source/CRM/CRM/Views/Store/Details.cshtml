@@ -1,0 +1,38 @@
+﻿@model CRM.Entities.Store
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Master.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Store</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nmStore)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.nmStore)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address.nuAddress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Country)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Country.abbrevationCountry)
+        </dd>
+        <partial name="/Views/Address/Details.cshtml" for="Address" />
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.idStore">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190814045330_updateCustomerNumber.cs" />
+    <Compile Remove="Migrations\20190814045330_updateCustomerNumber.Designer.cs" />
+    <Compile Remove="Migrations\20190814045444_updateCustomerNumber2.cs" />
+    <Compile Remove="Migrations\20190814045444_updateCustomerNumber2.Designer.cs" />
+    <Compile Remove="Migrations\20190814045719_updateCustomerNumber3.cs" />
+    <Compile Remove="Migrations\20190814045719_updateCustomerNumber3.Designer.cs" />
+    <Compile Remove="Migrations\20190815153908_SQLMigration.cs" />
+    <Compile Remove="Migrations\20190815153908_SQLMigration.Designer.cs" />
+    <Compile Remove="Migrations\20190815154254_SQLMigration.cs" />
+    <Compile Remove="Migrations\20190815154254_SQLMigration.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Antiforgery" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="2.2.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
+    <PackageReference Include="System.Data.Common" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.identity.entityframeworkcore\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

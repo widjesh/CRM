@@ -1,0 +1,60 @@
+﻿@model CRM.Entities.Ticket
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Master.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ticket</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.deTicket)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.deTicket)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.dtOpening)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.dtOpening)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.dtClosing)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.dtClosing)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.dtDue)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.dtDue)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.staffAssignedTo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.staffAssignedTo.adEmail)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ticketStatus)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ticketStatus.deTicketStatus)
+        </dd>
+    </dl>
+</div>
+<partial name="/Views/TicketHistory/_List.cshtml" for="TicketHistory" />
+<div>
+    @if (Model.idTicketStatus == (int)CRM.Util.Enum.TicketStatusEnum.OPEN)
+    {
+        <a asp-action="Edit" asp-route-id="@Model.idTicket">Edit</a> 
+ }
+
+    <a asp-action="Index">Back to List</a>
+</div>

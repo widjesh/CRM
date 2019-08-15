@@ -1,0 +1,39 @@
+﻿@model CRM.Entities.Address
+
+
+<div class="row">
+    <div class="col-md-4">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="street" class="control-label"></label>
+            <input asp-for="street" class="form-control" />
+            <span asp-validation-for="street" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="disctrict" class="control-label"></label>
+            <input asp-for="disctrict" class="form-control" />
+            <span asp-validation-for="disctrict" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="nuAddress" class="control-label"></label>
+            <input asp-for="nuAddress" class="form-control" />
+            <span asp-validation-for="nuAddress" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="idCountry" class="control-label"></label>
+            <select asp-for="idCountry" class="form-control" asp-items="ViewBag.idCountry"></select>
+        </div>
+        <div class="form-group">
+            <label asp-for="cityAddress" class="control-label"></label>
+            <input asp-for="cityAddress" class="form-control" />
+            <span asp-validation-for="cityAddress" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="zipAddress" class="control-label"></label>
+            <input asp-for="zipAddress" class="form-control" />
+            <span asp-validation-for="zipAddress" class="text-danger"></span>
+        </div>
+    </div>
+</div>
+
+

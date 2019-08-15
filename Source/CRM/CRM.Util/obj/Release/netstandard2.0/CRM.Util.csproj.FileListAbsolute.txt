@@ -1,0 +1,9 @@
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Util\bin\Release\netstandard2.0\CRM.Util.deps.json
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Util\bin\Release\netstandard2.0\CRM.Util.dll
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Util\bin\Release\netstandard2.0\CRM.Util.pdb
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Util\obj\Release\netstandard2.0\CRM.Util.csprojAssemblyReference.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Util\obj\Release\netstandard2.0\CRM.Util.csproj.CoreCompileInputs.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Util\obj\Release\netstandard2.0\CRM.Util.AssemblyInfoInputs.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Util\obj\Release\netstandard2.0\CRM.Util.AssemblyInfo.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Util\obj\Release\netstandard2.0\CRM.Util.dll
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Util\obj\Release\netstandard2.0\CRM.Util.pdb

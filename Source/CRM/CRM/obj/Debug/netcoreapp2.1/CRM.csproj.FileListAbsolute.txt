@@ -1,0 +1,101 @@
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\Debug\netcoreapp2.1\CRM.deps.json
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\Debug\netcoreapp2.1\CRM.runtimeconfig.json
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\Debug\netcoreapp2.1\CRM.runtimeconfig.dev.json
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\Debug\netcoreapp2.1\CRM.dll
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\Debug\netcoreapp2.1\CRM.pdb
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\Debug\netcoreapp2.1\CRM.Views.dll
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\Debug\netcoreapp2.1\CRM.Views.pdb
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\Debug\netcoreapp2.1\CRM.Entities.dll
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\Debug\netcoreapp2.1\CRM.Entities.pdb
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.RazorAssemblyInfo.cache
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.RazorAssemblyInfo.cs
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.AssemblyInfo.cs
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.TagHelpers.input.cache
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.TagHelpers.output.cache
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.RazorCoreGenerate.cache
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Create.g.cshtml.cs
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Delete.g.cshtml.cs
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Details.g.cshtml.cs
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Edit.g.cshtml.cs
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Index.g.cshtml.cs
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Master.g.cshtml.cs
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Staff\Create.g.cshtml.cs
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Staff\Edit.g.cshtml.cs
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Staff\Index.g.cshtml.cs
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.RazorTargetAssemblyInfo.cache
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.RazorTargetAssemblyInfo.cs
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.Views.pdb
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.csproj.CopyComplete
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.dll
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.pdb
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\netcoreapp2.1\CRM.deps.json
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\netcoreapp2.1\CRM.runtimeconfig.json
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\netcoreapp2.1\CRM.runtimeconfig.dev.json
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\netcoreapp2.1\CRM.dll
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\netcoreapp2.1\CRM.pdb
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\netcoreapp2.1\CRM.Views.dll
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\netcoreapp2.1\CRM.Views.pdb
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\netcoreapp2.1\CRM.Entities.dll
+\\Mac\Home\Desktop\Software Engineer\CRM\Source\CRM\CRM\bin\netcoreapp2.1\CRM.Entities.pdb
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.csprojAssemblyReference.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.csproj.CoreCompileInputs.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.RazorAssemblyInfo.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.RazorAssemblyInfo.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.AssemblyInfoInputs.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.AssemblyInfo.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.TagHelpers.input.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.TagHelpers.output.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.RazorCoreGenerate.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\AccessDenied.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Address\Create.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Address\Delete.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Address\Details.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Address\Edit.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Address\Index.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Create.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Delete.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Details.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Edit.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Index.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Search.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ErrorMessage.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Master.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MasterLogin.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Staff\Create.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Staff\Delete.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Staff\Details.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Staff\Edit.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Staff\Index.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Store\Create.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Store\Delete.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Store\Details.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Store\Edit.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Store\Index.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\TicketHistory\_List.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Ticket\Create.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Ticket\Delete.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Ticket\Details.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Ticket\Edit.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Ticket\Index.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\Ticket\_List.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.RazorTargetAssemblyInfo.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.RazorTargetAssemblyInfo.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.dll
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM\obj\Debug\netcoreapp2.1\CRM.pdb

@@ -1,0 +1,55 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<div class="login-center">
+    <div class="navbar-header text-center mt-2 mb-4">
+        <a href="index.html">
+            <img alt="" src="assets/img/logo-light.png">
+        </a>
+    </div>
+    <!-- /.navbar-header -->
+    <form method="post">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Input.Email">Email</label>
+            <input type="email" asp-for="Input.Email" placeholder="johndoe@site.com" class="form-control form-control-line">
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Input.Password">Password</label>
+            <input type="password" asp-for="Input.Password" placeholder="password" class="form-control form-control-line">
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-block btn-lg btn-primary text-uppercase fs-12 fw-600" type="submit">Login</button>
+        </div>
+        <div class="form-group no-gutters mb-0">
+            <div class="col-md-12 d-flex">
+                <div class="checkbox checkbox-primary mr-auto mr-0-rtl ml-auto-rtl">
+                    <label asp-for="Input.RememberMe" class="d-flex">
+                        <input asp-for="Input.RememberMe" type="checkbox"> @Html.DisplayNameFor(m => m.Input.RememberMe)
+                    </label>
+                </div><a asp-page="./ForgotPassword" class="my-auto pb-2 text-right"><i class="material-icons mr-2 fs-18">lock</i> Forgot Password?</a>
+            </div>
+            <!-- /.col-md-12 -->
+        </div>
+        <!-- /.form-group -->
+    </form>
+    <!-- /.form-material -->
+    <hr>
+    <!-- /.btn-list -->
+    <footer class="col-sm-12 text-center">
+        <hr>
+        <p>
+            Don't have an account? <a href="page-register.html" class="text-primary m-l-5"><b>Sign Up</b></a>
+        </p>
+    </footer>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

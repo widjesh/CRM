@@ -1,0 +1,209 @@
+﻿@inject UserManager<IdentityUser> UserManager
+@inject SignInManager<IdentityUser> SignInManager
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon.png">
+    <link rel="stylesheet" href="/css/pace.css">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>CRM - @ViewData["Title"]</title>
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600%7CRoboto:400" rel="stylesheet" type="text/css">
+    <link href="/vendors/material-icons/material-icons.css" rel="stylesheet" type="text/css">
+    <link href="/vendors/mono-social-icons/monosocialiconsfont.css" rel="stylesheet" type="text/css">
+    <link href="/vendors/feather-icons/feather.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.7.0/css/perfect-scrollbar.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <!-- Head Libs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script data-pace-options='{ "ajax": false, "selectors": [ "img" ]}' src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+</head>
+
+<body class="sidebar-dark sidebar-expand content-dark navbar-brand-dark right-sidebar-dark">
+    <div id="wrapper" class="wrapper">
+        <!-- HEADER & TOP NAVIGATION -->
+        <nav class="navbar">
+            <!-- Logo Area -->
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">
+                    <img class="logo-expand" alt="" src="/img/logo-dark.png">
+                    <img class="logo-collapse" alt="" src="/img/logo-collapse.png">
+                    <!-- <p>BonVue</p> -->
+                </a>
+            </div>
+            <!-- /.navbar-header -->
+            <!-- Left Menu & Sidebar Toggle -->
+            <ul class="nav navbar-nav">
+                <li class="sidebar-toggle dropdown">
+                    <a href="javascript:void(0)" class="ripple"><i class="feather feather-menu list-icon fs-20"></i></a>
+                </li>
+            </ul>
+            <!-- /.navbar-left -->
+            <div class="spacer"></div>
+            <!-- Right Menu -->
+            <ul class="nav navbar-nav d-none d-lg-flex ml-2 ml-0-rtl">
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="Identity"
+                           asp-page="/Account/Manage/Index"
+                           title="Manage">Hello @User.Identity.Name!</a>
+                    </li>
+
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="Identity"
+                           asp-page="/Account/Login"
+                           title="Manage">Sign In</a>
+                    </li>
+                }
+
+            </ul>
+            <!-- /.navbar-right -->
+            <!-- User Image with Dropdown -->
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle dropdown-toggle-user ripple" data-toggle="dropdown"><span class="avatar thumb-xs2"><img src="/demo/users/user1.jpg" class="rounded-circle" alt=""> <i class="feather feather-chevron-down list-icon"></i></span></a>
+                    <div class="dropdown-menu dropdown-left dropdown-card dropdown-card-dark dropdown-card-profile animated flipInY">
+                        <div class="card">
+                            <header class="card-header d-flex mb-0">
+                                <a href="javascript:void(0);" class="col-md-4 text-center"><i class="feather feather-user-plus align-middle"></i> </a><a href="javascript:void(0);" class="col-md-4 text-center"><i class="feather feather-settings align-middle"></i> </a>
+                                <a href="javascript:void(0);" class="col-md-4 text-center">
+                                    <i class="feather feather-power align-middle"></i>
+                                </a>
+                            </header>
+                            <ul class="list-unstyled card-body">
+                                <li>
+                                    <a asp-area="Identity" asp-page="/Account/ForgotPassword"><span><span class="align-middle">Forgot Password</span></span></a>
+                                </li>
+                                <li>
+                                    <a asp-area="Identity" asp-page="/Account/ResetPassword"><span><span class="align-middle">Reset Password</span></span></a>
+                                </li>
+                                <li>
+                                    <a asp-page="/Account/Logout" asp-area="Identity"><span><span class="align-middle">Sign Out</span></span></a>
+                                </li>
+                            </ul>
+                            <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.dropdown-card-profile -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-nav -->
+        </nav>
+        <!-- /.navbar -->
+        <div class="content-wrapper">
+            <!-- SIDEBAR -->
+            <aside class="site-sidebar scrollbar-enabled" data-suppress-scroll-x="true">
+                <!-- User Details -->
+                <div class="side-user d-none">
+                    <div class="col-sm-12 text-center p-0 clearfix">
+                        <div class="d-inline-block pos-relative mr-b-10">
+                            <figure class="thumb-sm mr-b-0 user--online">
+                                <img src="/demo/users/user1.jpg" class="rounded-circle" alt="">
+                            </figure><a href="page-profile.html" class="text-muted side-user-link"><i class="feather feather-settings list-icon"></i></a>
+                        </div>
+                        <!-- /.d-inline-block -->
+                        <div class="lh-14 mr-t-5">
+                            <a href="page-profile.html" class="hide-menu mt-3 mb-0 side-user-heading fw-500">Scott Adams</a>
+                            <br><small class="hide-menu">Developer</small>
+                        </div>
+                    </div>
+                    <!-- /.col-sm-12 -->
+                </div>
+                <!-- /.side-user -->
+                <!-- Call to Action -->
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    <div class="side-content mr-t-30 mr-lr-15">
+                        <a class="btn btn-primary" href="/Customer/Search"> New Ticket</a>
+                    </div>
+                }
+                <!-- Sidebar Menu -->
+                <nav class="sidebar-nav">
+                    <ul class="nav in side-menu">
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <li class="current-page">
+                                @Html.ActionLink("Dashboard", "Index", "Home")
+                            </li>
+                            <li class="current-page">
+                                @Html.ActionLink("Customer List", "Index", "Customer")
+                            </li>
+                            @if (this.User.IsInRole("Admin"))
+                            {
+                                <li class="current-page">
+                                    @Html.ActionLink("Store List", "Index", "Store")
+                                </li>
+                                <li class="current-page">
+                                    @Html.ActionLink("Staff List", "Index", "Staff")
+                                </li>
+                            }
+                            <li class="current-page">
+                                @Html.ActionLink("Ticket List", "Index", "Ticket")
+                            </li>
+                        }
+                        @*<li class="current-page menu-item-has-children">
+                                <a href="index.html"><i class="list-icon feather feather-command"></i> <span class="hide-menu">Dashboard</span></a>
+                                <ul class="list-unstyled sub-menu">
+                                    <li>
+                                        <a href="http://wiseowl.thinqteam.com/default/index.html">Default</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://wiseowl.thinqteam.com/collapsed-light/index.html">Collapsed Light</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html">Dark</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://wiseowl.thinqteam.com/horizontal-nav-icons/index.html">Horizontal Nav</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://wiseowl.thinqteam.com/rtl/index.html">RTL Demo</a>
+                                    </li>
+                                </ul>
+                            </li>*@
+                    </ul>
+                    <!-- /.side-menu -->
+                </nav>
+                <!-- /.sidebar-nav -->
+            </aside>
+            <!-- /.site-sidebar -->
+            <main class="main-wrapper clearfix">
+                @RenderBody()
+            </main>
+            <!-- /.main-wrappper -->
+        </div>
+        <!-- /.content-wrapper -->
+        <!-- FOOTER -->
+        <footer class="footer">
+            <span class="heading-font-family">Copyright @@ 2017. All rights reserved WiseOwl Admin by Unifato</span>
+        </footer>
+    </div>
+    <!--/ #wrapper -->
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.2/umd/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.0/metisMenu.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.7.0/js/perfect-scrollbar.jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="/js/theme.js"></script>
+    <script src="/js/custom.js"></script>
+    <partial name="_ErrorMessage" />
+    @RenderSection("Scripts", false)
+</body>
+
+</html>

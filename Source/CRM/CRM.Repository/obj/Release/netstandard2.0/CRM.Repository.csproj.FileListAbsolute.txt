@@ -1,0 +1,14 @@
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\bin\Release\netstandard2.0\CRM.Repository.deps.json
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\bin\Release\netstandard2.0\CRM.Repository.dll
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\bin\Release\netstandard2.0\CRM.Repository.pdb
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\bin\Release\netstandard2.0\CRM.Entities.dll
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\bin\Release\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\bin\Release\netstandard2.0\CRM.Entities.pdb
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\bin\Release\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\obj\Release\netstandard2.0\CRM.Repository.csprojAssemblyReference.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\obj\Release\netstandard2.0\CRM.Repository.csproj.CoreCompileInputs.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\obj\Release\netstandard2.0\CRM.Repository.AssemblyInfoInputs.cache
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\obj\Release\netstandard2.0\CRM.Repository.AssemblyInfo.cs
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\obj\Release\netstandard2.0\CRM.Repository.csproj.CopyComplete
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\obj\Release\netstandard2.0\CRM.Repository.dll
+C:\Users\ishiva\Desktop\CRM\Source\CRM\CRM.Repository\obj\Release\netstandard2.0\CRM.Repository.pdb

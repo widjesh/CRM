@@ -1,0 +1,59 @@
+﻿@model IEnumerable<CRM.Entities.Customer>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Master.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nmCustomer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nuPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.adEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nuCustomer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nmCustomer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nuPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.adEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nuCustomer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address.street)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.idCustomer">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.idCustomer">Details</a> 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
